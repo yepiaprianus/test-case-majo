@@ -9,13 +9,18 @@
 
 ## To create a project from this repository:
 git clone https://github.com/yepiaprianus/test-case-majo.git
-cd !$
-rm -rf .git
-composer run-script post-root-package-install
-composer install
-setup your env
-create database name
-running sql file db.sql
+1. cd !$
+2. rm -rf .git
+3. composer run-script post-root-package-install
+4. composer install
+5. setup your env
+6. create your database name
+7. running sql file db.sql
+8. php artisan serve
+
+username : admin
+password : admin123
+
 
 ## About Laravel
 
